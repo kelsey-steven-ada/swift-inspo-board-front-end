@@ -37,5 +37,17 @@ class InspoBoardAPIManager: ObservableObject {
         
         return decodedData
     }
-}
 
+    // TODO: Fill out as views are added
+    func createABoard(name: String, owner:String) {
+
+    }
+
+    func deleteABoard(boardID: Int) {
+
+    }
+
+    func createACard(boardID: Int, message: String) {
+
+    }
+}

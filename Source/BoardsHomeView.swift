@@ -13,7 +13,9 @@ struct BoardsHomeView: View {
     
     
     init() {
-        // Not recommended, relies on TabView using UITabBarItem
+        // Set color for the tab view badge
+        // Relies on TabView using UITabBarItem, could break
+        // if SwiftUI changes their implementation in the future
         UITabBarItem.appearance().badgeColor = .purple
     }
     
@@ -22,14 +24,20 @@ struct BoardsHomeView: View {
             TabView {
                 // First tab: Show board list
                 VStack(spacing: 0) {
+                    // List view of board info
                     BoardsList(boards: $boards)
                     
+                    // Place color gradient behind the tab view.
+                    // Screen orientation is locked to portrait in project
+                    // settings since this implementation is fragile and
+                    // will break in landscape mode.
                     Rectangle()
                         .fill(Color.clear)
                         .background(gradient)
                         .frame(height: 100)
                         .cornerRadius(20, corners: [.topLeft, .topRight])
                 }
+                .background(.clear)
                 .edgesIgnoringSafeArea(.bottom)
                 .badge(boards.count)
                 .tabItem {
@@ -41,9 +49,14 @@ struct BoardsHomeView: View {
                 
                 // Second tab: Add board view
                 VStack(spacing: 0) {
+                    // Form for adding a new board
                     AddABoard()
                         .frame(maxHeight: .infinity)
                     
+                    // Place color gradient behind the tab view.
+                    // Screen orientation is locked to portrait in project
+                    // settings since this implementation is fragile and
+                    // will break in landscape mode.
                     Rectangle()
                         .fill(Color.clear)
                         .background(gradient)
@@ -61,6 +74,9 @@ struct BoardsHomeView: View {
             .accentColor(Color("TabBlue"))
             .environmentObject(apiManager)
         } else {
+            // If the array `boards` is empty, show a loading view
+            // with a task that will load the board info from our API
+            // through the `apiManager`
             LoadingView()
                 .background(gradient)
                 .task {
