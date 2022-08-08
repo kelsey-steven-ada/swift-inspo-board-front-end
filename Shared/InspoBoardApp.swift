@@ -11,7 +11,7 @@ import SwiftUI
 struct InspoBoardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BoardsHomeView()
         }
     }
 }

@@ -1,0 +1,33 @@
+[
+    {
+        "cards": [
+            {
+                "board_id": 1,
+                "id": 2,
+                "likes": 0,
+                "message": "Walk about"
+            },
+            {
+                "board_id": 1,
+                "id": 1,
+                "likes": 3,
+                "message": "Super cool msg for board 1"
+            }
+        ],
+        "id": 1,
+        "name": "Test 1",
+        "owner": "Kelseyyy"
+    },
+    {
+        "cards": [],
+        "id": 3,
+        "name": "Test threee",
+        "owner": "Kelsooo"
+    },
+    {
+        "cards": [],
+        "id": 5,
+        "name": "Test 3",
+        "owner": "Kelsaaayyy"
+    }
+]

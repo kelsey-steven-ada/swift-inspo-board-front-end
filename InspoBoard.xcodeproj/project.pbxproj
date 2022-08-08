@@ -9,19 +9,44 @@
 /* Begin PBXBuildFile section */
 		F365ED64289B39B00026F354 /* InspoBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED54289B39AD0026F354 /* InspoBoardApp.swift */; };
 		F365ED65289B39B00026F354 /* InspoBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED54289B39AD0026F354 /* InspoBoardApp.swift */; };
-		F365ED66289B39B00026F354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED55289B39AD0026F354 /* ContentView.swift */; };
-		F365ED67289B39B00026F354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED55289B39AD0026F354 /* ContentView.swift */; };
+		F365ED66289B39B00026F354 /* BoardsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED55289B39AD0026F354 /* BoardsHomeView.swift */; };
 		F365ED68289B39B00026F354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F365ED56289B39B00026F354 /* Assets.xcassets */; };
 		F365ED69289B39B00026F354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F365ED56289B39B00026F354 /* Assets.xcassets */; };
+		F365ED74289B39EE0026F354 /* BoardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED73289B39EE0026F354 /* BoardsList.swift */; };
+		F365ED76289B39FD0026F354 /* AddABoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED75289B39FD0026F354 /* AddABoard.swift */; };
+		F365ED78289B3C7D0026F354 /* AddACard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED77289B3C7D0026F354 /* AddACard.swift */; };
+		F365ED7A289B3C8D0026F354 /* CardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED79289B3C8D0026F354 /* CardsList.swift */; };
+		F365ED7D289B3CE20026F354 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED7C289B3CE20026F354 /* Board.swift */; };
+		F365ED7F289B3D240026F354 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED7E289B3D240026F354 /* Card.swift */; };
+		F365ED81289B44B00026F354 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365ED80289B44B00026F354 /* Extensions.swift */; };
+		F36721F2289B4C94009ACCBA /* InspoBoardAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36721F1289B4C94009ACCBA /* InspoBoardAPIManager.swift */; };
+		F36721F4289B4F2A009ACCBA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36721F3289B4F2A009ACCBA /* LoadingView.swift */; };
+		F36721F9289B57B5009ACCBA /* boardData.json in Resources */ = {isa = PBXBuildFile; fileRef = F36721F6289B57B5009ACCBA /* boardData.json */; };
+		F36721FA289B57B5009ACCBA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36721F7289B57B5009ACCBA /* ModelData.swift */; };
+		F36721FB289B57B5009ACCBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36721F8289B57B5009ACCBA /* Preview Assets.xcassets */; };
+		F36721FE289B58C8009ACCBA /* BoardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36721FD289B58C7009ACCBA /* BoardRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F365ED54289B39AD0026F354 /* InspoBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspoBoardApp.swift; sourceTree = "<group>"; };
-		F365ED55289B39AD0026F354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F365ED55289B39AD0026F354 /* BoardsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardsHomeView.swift; sourceTree = "<group>"; };
 		F365ED56289B39B00026F354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F365ED5B289B39B00026F354 /* InspoBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspoBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F365ED61289B39B00026F354 /* InspoBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspoBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F365ED63289B39B00026F354 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F365ED73289B39EE0026F354 /* BoardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardsList.swift; sourceTree = "<group>"; };
+		F365ED75289B39FD0026F354 /* AddABoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddABoard.swift; sourceTree = "<group>"; };
+		F365ED77289B3C7D0026F354 /* AddACard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddACard.swift; sourceTree = "<group>"; };
+		F365ED79289B3C8D0026F354 /* CardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsList.swift; sourceTree = "<group>"; };
+		F365ED7C289B3CE20026F354 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		F365ED7E289B3D240026F354 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F365ED80289B44B00026F354 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F36721F1289B4C94009ACCBA /* InspoBoardAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspoBoardAPIManager.swift; sourceTree = "<group>"; };
+		F36721F3289B4F2A009ACCBA /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F36721F6289B57B5009ACCBA /* boardData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boardData.json; sourceTree = "<group>"; };
+		F36721F7289B57B5009ACCBA /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F36721F8289B57B5009ACCBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F36721FD289B58C7009ACCBA /* BoardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				F365ED53289B39AD0026F354 /* Shared */,
+				F36721F5289B577B009ACCBA /* PreviewContent */,
 				F365ED62289B39B00026F354 /* macOS */,
 				F365ED5C289B39B00026F354 /* Products */,
 			);
@@ -55,8 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				F365ED54289B39AD0026F354 /* InspoBoardApp.swift */,
-				F365ED55289B39AD0026F354 /* ContentView.swift */,
+				F365ED55289B39AD0026F354 /* BoardsHomeView.swift */,
+				F365ED7B289B3CD60026F354 /* Models */,
+				F365ED72289B39BD0026F354 /* Components */,
+				F36721F0289B4C6D009ACCBA /* Managers */,
 				F365ED56289B39B00026F354 /* Assets.xcassets */,
+				F365ED80289B44B00026F354 /* Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +106,54 @@
 				F365ED63289B39B00026F354 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		F365ED72289B39BD0026F354 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F36721FC289B58A5009ACCBA /* BoardList */,
+				F365ED75289B39FD0026F354 /* AddABoard.swift */,
+				F365ED77289B3C7D0026F354 /* AddACard.swift */,
+				F365ED79289B3C8D0026F354 /* CardsList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F365ED7B289B3CD60026F354 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F365ED7C289B3CE20026F354 /* Board.swift */,
+				F365ED7E289B3D240026F354 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F36721F0289B4C6D009ACCBA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F36721F1289B4C94009ACCBA /* InspoBoardAPIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F36721F5289B577B009ACCBA /* PreviewContent */ = {
+			isa = PBXGroup;
+			children = (
+				F36721F7289B57B5009ACCBA /* ModelData.swift */,
+				F36721F6289B57B5009ACCBA /* boardData.json */,
+				F36721F8289B57B5009ACCBA /* Preview Assets.xcassets */,
+			);
+			path = PreviewContent;
+			sourceTree = "<group>";
+		};
+		F36721FC289B58A5009ACCBA /* BoardList */ = {
+			isa = PBXGroup;
+			children = (
+				F36721F3289B4F2A009ACCBA /* LoadingView.swift */,
+				F365ED73289B39EE0026F354 /* BoardsList.swift */,
+				F36721FD289B58C7009ACCBA /* BoardRow.swift */,
+			);
+			path = BoardList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36721F9289B57B5009ACCBA /* boardData.json in Resources */,
+				F36721FB289B57B5009ACCBA /* Preview Assets.xcassets in Resources */,
 				F365ED68289B39B00026F354 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,8 +256,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F365ED66289B39B00026F354 /* ContentView.swift in Sources */,
+				F365ED76289B39FD0026F354 /* AddABoard.swift in Sources */,
+				F365ED81289B44B00026F354 /* Extensions.swift in Sources */,
+				F365ED66289B39B00026F354 /* BoardsHomeView.swift in Sources */,
+				F36721F4289B4F2A009ACCBA /* LoadingView.swift in Sources */,
+				F36721F2289B4C94009ACCBA /* InspoBoardAPIManager.swift in Sources */,
+				F36721FA289B57B5009ACCBA /* ModelData.swift in Sources */,
 				F365ED64289B39B00026F354 /* InspoBoardApp.swift in Sources */,
+				F36721FE289B58C8009ACCBA /* BoardRow.swift in Sources */,
+				F365ED74289B39EE0026F354 /* BoardsList.swift in Sources */,
+				F365ED7D289B3CE20026F354 /* Board.swift in Sources */,
+				F365ED78289B3C7D0026F354 /* AddACard.swift in Sources */,
+				F365ED7A289B3C8D0026F354 /* CardsList.swift in Sources */,
+				F365ED7F289B3D240026F354 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F365ED67289B39B00026F354 /* ContentView.swift in Sources */,
 				F365ED65289B39B00026F354 /* InspoBoardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +399,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VH5XLSQ3W2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,14 +430,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VH5XLSQ3W2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
