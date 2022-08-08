@@ -70,14 +70,14 @@
 		F365ED4E289B39AD0026F354 = {
 			isa = PBXGroup;
 			children = (
-				F365ED53289B39AD0026F354 /* Shared */,
+				F365ED53289B39AD0026F354 /* Source */,
 				F36721F5289B577B009ACCBA /* PreviewContent */,
 				F365ED62289B39B00026F354 /* macOS */,
 				F365ED5C289B39B00026F354 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F365ED53289B39AD0026F354 /* Shared */ = {
+		F365ED53289B39AD0026F354 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				F365ED54289B39AD0026F354 /* InspoBoardApp.swift */,
@@ -88,7 +88,7 @@
 				F365ED56289B39B00026F354 /* Assets.xcassets */,
 				F365ED80289B44B00026F354 /* Extensions.swift */,
 			);
-			path = Shared;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		F365ED5C289B39B00026F354 /* Products */ = {

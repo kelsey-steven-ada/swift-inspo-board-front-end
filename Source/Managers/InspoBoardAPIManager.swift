@@ -38,15 +38,4 @@ class InspoBoardAPIManager: ObservableObject {
         return decodedData
     }
 }
-//    func createABoard(name: String, owner:String) {
-//
-//    }
-//
-//    func deleteABoard(boardID: Int) {
-//
-//    }
-//
-//    func createACard(boardID: Int, message: String) {
-//
-//    }
-//}
+
