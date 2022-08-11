@@ -23,7 +23,7 @@ struct BoardsList: View {
 //                )
                 
                 // Temp change to show updating state from child view CardsList
-                // Pass @State `boards` to CardsList which has a button that will
+                // Pass binding `boards` to CardsList which has a button that will
                 // add a new entry to the `board` state when clicked
                 NavigationLink (
                     destination: CardsList(board: board, boards: $boards),
