@@ -15,14 +15,18 @@ struct CardsList: View {
             List(board.cards) { card in
                 Text(card.message)
             }
-            
+            .cornerRadius(20, corners: [.bottomLeft, .bottomRight])
+
             Button {
                 print("add card pressed")
             } label: {
                 Text("Add Card")
+                    .frame(maxWidth: .infinity)
             }
             .padding()
+            .padding(.bottom)
         }
+        .navigationBarTitle(Text(board.name), displayMode: .inline)
     }
 }
 

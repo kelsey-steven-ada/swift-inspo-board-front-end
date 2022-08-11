@@ -15,7 +15,7 @@ struct Card: Identifiable, Codable {
     
     // If the keys in the API are snake-case, we can provide
     // a CodingKeys enum that gives a mapping for any keys that
-    // be different from the variable names listed above.
+    // are different from the variable names listed above.
     //
     // Here, only boardID needs to be mapped to a different
     // name from the network response.

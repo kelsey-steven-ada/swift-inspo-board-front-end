@@ -39,8 +39,9 @@ class InspoBoardAPIManager: ObservableObject {
     }
 
     // TODO: Fill out as views are added
-    func createABoard(name: String, owner:String) {
-
+    func createABoard(name: String, owner:String) async throws -> Bool {
+        
+        return true
     }
 
     func deleteABoard(boardID: Int) {
