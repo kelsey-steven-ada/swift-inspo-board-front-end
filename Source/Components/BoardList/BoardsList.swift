@@ -22,10 +22,15 @@ struct BoardsList: View {
 //                    label: { BoardRow(board: board) }
 //                )
                 
-                // Temp change to show updating state from child view BoardRow
-                // Pass @State `boards` to each row which has a button that will
+                // Temp change to show updating state from child view CardsList
+                // Pass @State `boards` to CardsList which has a button that will
                 // add a new entry to the `board` state when clicked
-                BoardRow(board: board, boards: $boards)
+                NavigationLink (
+                    destination: CardsList(board: board, boards: $boards),
+                    tag: board.id,
+                    selection: $selectedBoard,
+                    label: { BoardRow(board: board) }
+                )  
             }
         }.onChange(of: navigationManager.activeTab) { newValue in
             selectedBoard = nil
